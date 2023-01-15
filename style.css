@@ -102,6 +102,7 @@ body {
   text-decoration: none;
 }
 .bar {
+    position: relative;
     margin: auto;
     height:.3em;
     width:75%;
@@ -111,7 +112,7 @@ body {
     padding:0 5px;
     }
 .progress {
-    position: relative;
+    position: absolute;
     left: 0;
     top: 0;
     height:inherit;
@@ -119,19 +120,9 @@ body {
     width:0;
     background:var(--primary-color);
     animation:load 3s linear infinite;
-    animation-delay:2s;
+    animation-delay:.5s;
 }
-.progress2 {
-    position: relative;
-    left: 0;
-    top: 0;
-    height:inherit;
-    border-radius:inherit;
-    width:0;
-    background:var(--primary-color);
-    animation:load 3s linear infinite;
-    animation-delay: 1.5s;
-}
+
 
 
     
