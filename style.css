@@ -135,17 +135,18 @@ body {
 
 
     
-    @keyframes load{
+       @keyframes load{
     0%{
-    margin-left:-100%;
+    margin-left:-45%;
     width: 50%;
     }
     50%{
-    
+      margin-left: 95%;
+      width: 50%;
     }
     100% {
-        margin-left: 100%;
-        width: 50%;
+      margin-left:-45%;
+      width: 50%;
     }
     }
 
