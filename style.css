@@ -130,7 +130,7 @@ body {
     width:0;
     background:var(--primary-color);
     animation:load 3s linear infinite;
-    animation-delay: 3s;
+    animation-delay: 1.5s;
 }
 
 
